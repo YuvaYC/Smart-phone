@@ -47,7 +47,9 @@ body {
 .screen {
   width: 240px;
   height: 420px;
-  background: conic-gradient(#FF89AF, #F5CFD6, #FF89AF);
+  background: url('images.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .bottom {
   display: flex;
@@ -101,7 +103,10 @@ p {
 
 .main-apps{
   display: flex;
+  color: #fff;
   transform: translateY(330px);
+  align-items: center;
+  justify-content: center;
 }
 
 .call, .cont, .browse, .calc{
@@ -112,27 +117,37 @@ p {
 .phone-call{
   width: 30px;
   height: 30px;
-  background: lightgreen;
+  background: #fff;
   border-radius: 8px;
 }
 
 .contacts{
   width: 30px;
   height: 30px;
-  background: lightgreen;
+  background: white;
   border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .google{
   width: 30px;
   height: 30px;
-  background: lightgreen;
+  background: white;
   border-radius: 8px;
+  color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .calculator{
   width: 30px;
   height: 30px;
-  background: lightgreen;
+  background: white;
   border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
